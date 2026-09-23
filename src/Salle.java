@@ -24,4 +24,12 @@ public class Salle {
 	public String toString(){
 		return "La Salle n°"+this.numero+" ";
 	}
+
+	public int getNbPlaces(){
+		return numeroTotal;
+	}
+
+	public void setNbPlaces(int n){
+		this.numeroTotal=n;
+	}
 }
